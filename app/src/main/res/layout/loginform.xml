@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/cardview_dark_background"
+    android:padding="20dp">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@color/cardview_light_background"
+        android:padding="20dp"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_face_black_48dp"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/tLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LOGIN"
+            android:textStyle="bold"
+            android:textSize="35dp"
+            android:textColor="@color/cardview_dark_background"
+            android:layout_gravity="center"
+            android:paddingBottom="10dp"/>
+
+        <EditText
+            android:id="@+id/edtUname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Username"
+            android:textSize="20dp"/>
+
+        <EditText
+            android:id="@+id/edtPwd"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Password"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center">
+
+            <Button
+                android:id="@+id/btnForgot"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="FORGOT?"/>
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
